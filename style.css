@@ -1,0 +1,63 @@
+@font-face {
+    font-family: wiiu-font;
+    src: url(wii.ttf); /* Dev reference for NewRodin font: https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers*/
+}
+
+html, head, body, footer {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: wiiu-font;
+    font-weight: 900;
+}
+
+span.debug {
+  color: red;
+}
+.leftside { 
+  float: left;
+}
+
+.float-right {
+    float: right;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+#tvremote {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.mii-info * {
+    position: absolute;
+}
+
+#mii-image {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 3px;
+}
+
+#mii-name {
+    font-size: 18px;
+    position: absolute;
+    top: 26px;
+    left: 70px;
+}
+
+.mat-card{ 
+  align-items: right;
+  justify-content: space-between;
+  float: right;
+  margin-right: 0;
+}
+
+.tvbuttons {
+    position: fixed;
+    top: 242px;
+}

@@ -1,6 +1,8 @@
 <!-- saved from url=(0027)https://imsus.gay/vino.html -->
 <html>
   <head>
+    <title>Nintendo TVii</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="popup.css" />
@@ -11,6 +13,10 @@
     <script src="w3schools.js"></script>
     <script>
     vino.ir_enableCodeset(1);
+      img = document.getElementById("mii-image");
+      span = document.getElementById("mii-name");
+      img.src=vino.act_getMiiImage(activeUserSlot);
+      span.innerText=vino.act_getName(activeUserSlot);
   </script>
   </head>
   <body>
@@ -36,7 +42,6 @@
     <!-- <br><br> -->
     <button class="open-button" onclick="openForm()">
     <p>WHITE DEBUG BUTTONS ARE BELOW THIS MESSAGE, REMOVE IN PRODUCTION & <br />CONTACT LUNA OR PH4NPY PLEASE </p>
-    <button class="open-button" onclick="openForm()"><img src="https://tcrf.net/images/7/73/WiiPlayDummy.png"></button>
       <div class="form-popup" id="myForm">
     <button class="btn" onclick="vino.ir_send(0, 0);">IR POWER</button>
     <button class="btn" onclick="vino.memo_open(true)">OLIVE_MEMO</button>
@@ -45,7 +50,7 @@
     <button class="btn" onclick="vino.olv_isEnabled(true)">ENABLE OLV</button>
     <button class="btn" onclick="vino.jumpToSettingsTvRemote(true)">REMOTE SETTINGS</button>
     <br>
-    <button class="btn" onclick="vino.jumpToBrowser(https://www.facebook.com/)">BROWSER START</button>
+    <button class="btn" onclick="vino.jumpToBrowser(true)">BROWSER START</button>
     <button class="btn" onclick="vino.jumpToMiiversePostId(true)">POST TO OLV</button>
     <button class="btn" onclick="alert(vino_polyfill)">ALERTFILL</button>
     <button class="btn" onclick="window.vinoPolyfillIrEnabled = true">_FORCE_FILLIRENABLED_DEBUGFUNCTION_</button>

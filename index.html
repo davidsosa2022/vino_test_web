@@ -12,6 +12,13 @@
     <script src="w3schools.js"></script>
   </head>
   <body>
+ <script> vino.ir_enableCodeset(1);
+const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
+img = document.getElementById("mii-image");
+span = document.getElementById("mii-name");
+img.src=vino.act_getMiiImage(activeUserSlot);
+span.innerText=vino.act_getName(activeUserSlot); </script>
+    
 </head><body><img id="mii-image" width="72" height="72"> <span id="mii-name"></span>
     <!-- Note: deprecate to IE5 level at some point, to accomodate for Wii U Webkit's similar compatibility level.!-->
     <div class="float-right">

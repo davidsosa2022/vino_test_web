@@ -19,7 +19,7 @@ span = document.getElementById("mii-name");
 img.src=vino.act_getMiiImage(activeUserSlot);
 span.innerText=vino.act_getName(activeUserSlot); </script>
     
-</head><body><img id="mii-image" width="72" height="72"> <span id="mii-name"></span>
+</head><body><img id="mii-image" width="72" height="72"> <span id="mii-name"></span> 
     <!-- Note: deprecate to IE5 level at some point, to accomodate for Wii U Webkit's similar compatibility level.!-->
     <div class="float-right">
       <mat-card>
@@ -47,7 +47,7 @@ span.innerText=vino.act_getName(activeUserSlot); </script>
     <button class="btn" onclick="vino.olv_isEnabled(true)">ENABLE OLV</button>
     <button class="btn" onclick="vino.jumpToSettingsTvRemote(true)">REMOTE SETTINGS</button>
     <br>
-    <button class="btn" onclick="vino.jumpToBrowser(true)">BROWSER START</button>
+    <button class="btn" onclick="vino.jumpToEShop(true)">WOOD START</button>
     <button class="btn" onclick="vino.jumpToMiiversePostId(true)">POST TO OLV</button>
     <button class="btn" onclick="alert(vino_polyfill)">ALERTFILL</button>
     <button class="btn" onclick="window.vinoPolyfillIrEnabled = true">_FORCE_FILLIRENABLED_DEBUGFUNCTION_</button>
@@ -61,7 +61,7 @@ span.innerText=vino.act_getName(activeUserSlot); </script>
     <button class="btn" onclick="vino.ir_send(IR_CODES.INPUT, 0);">IOTEST_DEBUGFUNCTION</button>
         </div>
     <button class="popup" onclick="myFunction()">LAYERTEST
-    <span class="popuptext" id="myPopup">Popup text...</span>
+    <span class="popuptext" id="myPopup">TVii is cool</span>
    </button>
   
     <style>

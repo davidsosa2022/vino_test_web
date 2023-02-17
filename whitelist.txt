@@ -1,1 +1,5 @@
-0
+<white-domain>https://davidsosa2022.github.io/vino_test_web/index.html
+<gold-domain>https://davidsosa2022.github.io/vino_test_web/index.html
+<white-title-ID>000500301001310A
+<top-page>https://davidsosa2022.github.io/vino_test_web/index.html
+<white-acr>a

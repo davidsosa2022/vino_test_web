@@ -25,7 +25,7 @@ html, body {
 #mii-info #mii-image {
     width: 64px;
     height: 64px;
-    border-radius: 10px;
+    border-radius: 8px;
     display: block;
 }
 

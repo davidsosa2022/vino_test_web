@@ -19,12 +19,12 @@ html, body {
     border-radius: 10px;
     background-color: rgba(50,50,50,0.5);
     border: 2px solid rgba(50,50,50,0.8);
-    height: 72px;
+    height: 64px;
 }
 
 #mii-info #mii-image {
-    width: 72px;
-    height: 72px;
+    width: 128px;
+    height: 128px;
     background-color: aliceblue;
     border-radius: 8px;
     display: block;

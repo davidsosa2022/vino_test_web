@@ -20,11 +20,15 @@
 <button onclick="window.location.href='../index.html'">index</button>
 <button onclick="myFunction()">Try it</button>
   
-                      <textarea
-                            type="text" name="body" class="textarea-text"
-                            value="" maxlength="400"
-                            placeholder="Add a comment here.
-*Please note that exchanging Nintendo Network IDs and friend codes is prohibited by the Miiverse Code of Conduct."></textarea>
+<h1>Display Text Input Fields</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Message</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Send Message">
+</form>
+
+</body>
 
 <script>
 function myFunction() {

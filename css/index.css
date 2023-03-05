@@ -38,28 +38,3 @@ html, body {
     margin-top: -46px;
     margin-left: 72px;
 }
-
-#remote {
-    padding: 8px;
-    border: solid 1px blue;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.remotebtn {
-    width: 42px;
-    height: 42px;
-}
-
-#miiverse img {
-    height: 42px;
-    width: 42px;
-}
-
-#miiverse {
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-

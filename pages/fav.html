@@ -20,6 +20,10 @@
 </head><body><img id="olv-drawing" width="320" height="120"> 
 <button onclick="vino.memo_open(true);">memo</button>
 <script>
+vino.olv_getParameterPack(true);
+vino.olv_getServiceToken(true);
+vino.olv_isEnabled(true);
+vino.olv_getUserAgent(true);
 const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
 img = document.getElementById("olv-drawing");
 img.src=vino.memo_getImagePng();

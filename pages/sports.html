@@ -6,6 +6,13 @@
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Script-Type" content="text/javascript">
 <body>
+		<style>
+			button {
+				width: 180px;
+				height: 30px;
+				font-size: 15px;
+			}
+		</style>
   <div id="mii-info">
         <img id="mii-image">
         <span id="mii-name">
@@ -17,9 +24,12 @@
 <br>
 <br>
 <p>This is the sports section, coming soon</p>
-<button type="button" onclick="vino.jumpToTitle('000500101005A100', true);">TEST</button><br><br>
-<button type="button" onclick="vino.jumpToTitle('0005001010066000', true);">test</button><br><br>
-<button onclick="window.location.href='../index.html'">index</button>
+<p>These buttons currently only work on Tiramisu, clicking them on Aroma causes the console to freeze</p>
+<button type="button" onclick="vino.jumpToTitle('000500101004A100', true);">Jump to Mii Maker</button><br><br>
+<button type="button" onclick="vino.jumpToTitle('000500101004C100', true);">Jump to Daily Log</button><br><br>
+<button onclick="window.location.href='../index.html'">Back</button>
+<button onclick="window.location.href='./index.html'">Test</button>
+<button onclick="window.location.href='./index_for_test.html'">Test2</button>
 <script src="../js/script.js"></script>
 <br>
 </body>

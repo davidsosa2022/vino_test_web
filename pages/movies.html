@@ -6,6 +6,13 @@
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Script-Type" content="text/javascript">
 <body>
+		<style>
+			button {
+				width: 220px;
+				height: 30px;
+				font-size: 15px;
+			}
+		</style>
   <div id="mii-info">
         <img id="mii-image">
         <span id="mii-name">
@@ -14,11 +21,6 @@
 <br>
 <br>
 <br>
-<video width="320" autoplay="autoplay" height="240" controls>
-<source src="IMG_0178.mp4" type="video/mp4">
-<source src="IMG_0178.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
   <br>
   <br>
   <br>
@@ -26,7 +28,8 @@ Your browser does not support the video tag.
 <br>
   <br>
 <p>This is the movies section, coming soon.</p>
-<button onclick="window.location.href='../index.html'">index</button>
+<button onclick="vino.jumpToSettingsTvRemote(true);">Go to TV Remote Settings</button>
+<button onclick="window.location.href='../index.html'">Back</button>
 <script src="../js/script.js"></script>
 <br>
 </body>

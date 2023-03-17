@@ -6,6 +6,13 @@
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Script-Type" content="text/javascript">
 <body>
+		<style>
+			button {
+				width: 100px;
+				height: 30px;
+				font-size: 15px;
+			}
+		</style>
   <div id="mii-info">
         <img id="mii-image">
         <span id="mii-name">
@@ -16,19 +23,17 @@
 <br>
 <br>
 <br>
+<p>Miiverse Drawing Interface</p>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head><body><img id="olv-drawing" width="320" height="120"> 
-<button onclick="vino.memo_open(true);">memo</button>
-<button onclick="vino.memo_isFinish(true);">1</button>
-<button onclick="vino.olv_getServiceToken(true);">2</button>
-<button onclick="vino.olv_getParameterPack(true);">3</button>
-<button onclick="vino.olv_getUserAgent(true);">4</button>
-<button onclick="vino.olv_isEnabled(true);">5</button>
+</head><body><img id="olv-drawing" width="320" height="120">
+<br>
+<button onclick="vino.memo_open(true);">Draw</button>
+<button onclick="location.reload();">Refresh</button>
 <script>
 const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
 img = document.getElementById("olv-drawing");
 img.src=vino.memo_getImagePng();
 </script>
-<button onclick="window.location.href='../index.html'">index</button>
+<button onclick="window.location.href='../index.html'">Back</button>
 <script src="../js/script.js"></script>
 </body>

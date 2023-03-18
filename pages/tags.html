@@ -5,6 +5,37 @@
 <link rel="stylesheet" href="../css/index.css">
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <body>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  
+  
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+  
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v16.0&appId=175014922063032&autoLogAppEvents=1" nonce="EPyxsUH8"></script>
+</script>
+  
   <div id="mii-info">
         <img id="mii-image">
         <span id="mii-name">
@@ -12,6 +43,7 @@
 <br>
 <br>
 <br>
+ <div class="fb-login-button" data-width="245" data-size="" data-button-type="" data-layout="" data-auto-logout-link="false" data-use-continue-as="false"></div>
 <br>
 <br>
 <br>

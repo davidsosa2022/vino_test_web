@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nintendo TVii</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Script-Type" content="text/javascript">
+<body>
+		<style>
+			button {
+				width: 100px;
+				height: 30px;
+				font-size: 15px;
+			}
+		</style>
+  <div id="mii-info">
+        <img id="mii-image">
+        <span id="mii-name">
+    </span></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>TV Remote</p>
+<br>
+<p>Control your TV with this quick menu now!</p>
+<br>
+<button onclick="toggleTVPower();">Power</button>
+<button onclick="changeInput();">Input</button>
+<button onclick="muteSound();">Mute IR</button>
+<br>
+<button onclick="increaseVolume();">Vol Up</button>
+<button onclick="decreaseVolume();">Vol Down</button>
+<button onclick="increaseChannel();">Ch Up</button>
+<button onclick="decreaseChannel();">Ch Down</button>
+
+<button onclick="window.location.href='../index.html'">Back</button>
+<script src="../js/script.js"></script>
+</body>

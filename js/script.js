@@ -4,7 +4,6 @@ span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
 
-html.addEventListener('click',vino.soundPlayEx("SE_APP_START";true))
 
 // Abstracted IR codes
 const IR_CODES = {

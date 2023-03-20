@@ -1,8 +1,3 @@
-$(window).load(function() {
-	$(".loader").delay(2000).fadeOut("slow");
-  $("#overlayer").delay(2000).fadeOut("slow");
-})
-
 const activeUserSlot = vino.act_getCurrentSlotNo();
 span = document.getElementById("mii-name");
 span.innerText=vino.act_getName(activeUserSlot);

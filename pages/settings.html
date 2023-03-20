@@ -7,8 +7,9 @@
 <body>
 
 <script>
+const activeUserSlot = vino.act_getCurrentSlotNo();
 span = document.getElementById("info");
-img.src=vino.act_getMiiImage(activeUserSlot);
+span.innerText=vino.act_getName(activeUserSlot);
 </script>
 
 <style>

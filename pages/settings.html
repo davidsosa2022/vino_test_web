@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nintendo TVii</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+<body>
+
+<script>
+const activeUserSlot = vino.act_getCurrentSlotNo();
+img = document.getElementById("mii-image");
+span = document.getElementById("mii-name");
+img.src=vino.act_getMiiImage(activeUserSlot);
+span.innerText=vino.act_getName(activeUserSlot);
+span = document.getElementById("info");
+</script>
+
+<style>
+#mii-info {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(50,50,50,0.5);
+    border: 2px solid rgba(50,50,50,0.8);
+    height: 256px;
+}
+
+#mii-info #mii-image {
+    width: 256px;
+    height: 256px;
+    background-color: aliceblue;
+    border-radius: 2px;
+
+}
+
+
+#mii-info #mii-name {
+    font-size: 18px;
+    display: block;
+    color: white;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+#info {
+    position: absolute;
+    top: 55px;
+    left: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(50,50,50,0.9);
+    border: 2px solid rgba(50,50,50,0.8);
+    width: 380px;
+    height: 200px;
+}
+</style>
+
+  <div id="mii-info">
+        <img id="mii-image">
+        <span id="mii-name">
+    </span></div>
+<br>
+<span id="info">
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="../js/script.js"></script>
+<br>
+</body>

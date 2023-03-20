@@ -4,6 +4,11 @@ span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
 
+$(window).load(function() {
+	$(".loader").delay(2000).fadeOut("slow");
+  $("#overlayer").delay(2000).fadeOut("slow");
+})
+
 
 // Abstracted IR codes
 const IR_CODES = {

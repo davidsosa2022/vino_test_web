@@ -46,6 +46,12 @@ html, body {
 	right: 0%;
 }
 
+#version {
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
+
 #mii-info {
     position: fixed;
     top: 8px;

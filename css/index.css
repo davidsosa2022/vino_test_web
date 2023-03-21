@@ -51,3 +51,11 @@ html, body {
     margin-top: -46px;
     margin-left: 72px;
 }
+
+#exit {
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+	background-image: url("../img/TV.png");
+
+}

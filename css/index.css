@@ -28,6 +28,18 @@ html, body {
 	left: 0;
 }
 
+#remote {
+	bottom: 0%;
+	right: 0%;
+	position: absolute;
+}
+
+#help {
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
+
 #mii-info {
     position: fixed;
     top: 8px;

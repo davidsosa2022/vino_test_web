@@ -28,6 +28,12 @@ html, body {
 	left: 0;
 }
 
+#back {
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+}
+
 #remote {
 	bottom: 0%;
 	right: 0%;

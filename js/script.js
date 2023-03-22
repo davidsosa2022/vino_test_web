@@ -56,3 +56,6 @@ function decreaseChannel() {
 function muteSound() {
     vino.ir_muteOneShotSound(true);
 }
+//IR code by jonbarrow, aka Pretendo leader
+
+//this is the part when i include the Miiverse work that wont work, maybe because there isnt a TVii community or im just bad at this

@@ -69,3 +69,4 @@ vino.lyt_setIsEnableWhiteMask(true);
 vino.lyt_startTouchEffect(true);
 vino.lyt_startTouchNodeEffect(true);
 vino.lyt_startTouchNodeEffectToFocused(true);
+vino.navi_setIsEnableMinusLocation"(true);

@@ -62,5 +62,4 @@ function muteSound() {
 
 vino.olv_getServiceToken(true);
 vino.olv_isEnabled(true);
-vino.navi_setScissor(true);
 vino.olv_getPostingResult(true);

@@ -24,6 +24,11 @@
 <button onclick="vino.memo_open(true);">Draw</button>
 <button onclick="location.reload();">Refresh</button>
 <button onclick="vino.suggest_isOpening(true);">Post</button>
+<form action="vino.olv_postText();" method="post" target="_blank">
+  <label for="message">Message</label>
+  <input type="text" id="message" name="message"><br>
+  <input type="submit" value="Submit">
+</form>
 <script>
 img = document.getElementById("olv-drawing");
 img.src=vino.memo_getImagePng();

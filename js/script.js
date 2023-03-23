@@ -4,6 +4,8 @@ span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
 
+vino.olv_getErrorCodeOnInitialize(true);
+
 
 
 // Abstracted IR codes

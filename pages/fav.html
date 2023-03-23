@@ -24,10 +24,9 @@
 <button onclick="vino.memo_open(true);">Draw</button>
 <button onclick="location.reload();">Refresh</button>
 <button onclick="vino.runOliveErrorDialog(5004);">Post</button>
-<button onclick="vino.wakeKeyboard();">???</button>
-<button onclick="vino.requestGarbageCollect();">AAA</button>
+<button onclick="vino.setDimEnable(true);">???</button>
+<button onclick="vino.ls_key(true);">BBB</button>
 <script>
-const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
 img = document.getElementById("olv-drawing");
 img.src=vino.memo_getImagePng();
 </script>

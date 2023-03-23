@@ -3,15 +3,6 @@ span = document.getElementById("mii-name");
 span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
-span = document.getElementById("pid");
-span.innerText=vino.act_getPid(activeUserSlot); 
-span = document.getElementById("age-division");
-span.innerText=vino.act_getAgeDivision(activeUserSlot); 
-span = document.getElementById("mii-data");
-span.innerText=vino.act_getMiiData(activeUserSlot); 
-span = document.getElementById("num");
-span.innerText=vino.act_getNum();
-
 
 
 // Abstracted IR codes
@@ -65,14 +56,3 @@ function muteSound() {
     vino.ir_muteOneShotSound(true);
 }
 //IR code by jonbarrow, aka Pretendo leader
-
-//this is the part when i include the Miiverse work that wont work, maybe because there isnt a TVii community or im just bad at this
-
-vino.olv_getServiceToken();
-vino.olv_isEnabled();
-vino.olv_getPostingResult();
-vino.lyt_draw(true);
-vino.lyt_drawFixedFrame(true);
-vino.lyt_setIsEnableWhiteMask(true);
-vino.lyt_startTouchEffect(true);
-vino.lyt_startTouchNodeEffect(true);

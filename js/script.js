@@ -3,6 +3,14 @@ span = document.getElementById("mii-name");
 span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
+span = document.getElementById("pid");
+span.innerText=vino.act_getPid(activeUserSlot); 
+span = document.getElementById("age-division");
+span.innerText=vino.act_getAgeDivision(activeUserSlot); 
+span = document.getElementById("mii-data");
+span.innerText=vino.act_getMiiData(activeUserSlot); 
+span = document.getElementById("num");
+span.innerText=vino.act_getNum();
 
 
 

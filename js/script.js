@@ -61,6 +61,6 @@ function muteSound() {
 //this is the part when i include the Miiverse work that wont work, maybe because there isnt a TVii community or im just bad at this
 
 vino.olv_getServiceToken(true);
-vino.loading_setIconVisibility(true);
-vino.loading_setIconAppear(true);
-vino.loading_setIconRect(true);
+vino.olv_isEnabled(true);
+vino.navi_setScissor(true);
+vino.olv_getPostingResult(true);

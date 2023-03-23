@@ -64,3 +64,4 @@ vino.olv_getServiceToken();
 vino.olv_isEnabled();
 vino.olv_getPostingResult();
 vino.lyt_startTouchNodeEffect(true);
+vino.lyt_startTouchNodeEffectToFocused(true);

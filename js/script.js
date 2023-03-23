@@ -63,5 +63,9 @@ function muteSound() {
 vino.olv_getServiceToken();
 vino.olv_isEnabled();
 vino.olv_getPostingResult();
+vino.lyt_draw(true);
+vino.lyt_drawFixedFrame(true);
+vino.lyt_setIsEnableWhiteMask(true);
+vino.lyt_startTouchEffect(true);
 vino.lyt_startTouchNodeEffect(true);
 vino.lyt_startTouchNodeEffectToFocused(true);

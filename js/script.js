@@ -62,4 +62,5 @@ function muteSound() {
 
 vino.olv_getServiceToken(true);
 vino.loading_setIconVisibility(true);
+vino.loading_setIconAppear(true);
 vino.loading_setIconRect(true);

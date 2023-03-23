@@ -4,8 +4,6 @@ span.innerText=vino.act_getName(activeUserSlot);
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
 
-vino.olv_getErrorCodeOnInitialize(true);
-
 
 
 // Abstracted IR codes
@@ -61,3 +59,6 @@ function muteSound() {
 //IR code by jonbarrow, aka Pretendo leader
 
 //this is the part when i include the Miiverse work that wont work, maybe because there isnt a TVii community or im just bad at this
+
+vino.olv_getServiceToken(true);
+vino.lyt_setIsEnableClientLoadingIcon(true);

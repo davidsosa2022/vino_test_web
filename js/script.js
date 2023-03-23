@@ -60,6 +60,7 @@ function muteSound() {
 
 //this is the part when i include the Miiverse work that wont work, maybe because there isnt a TVii community or im just bad at this
 
-vino.olv_getServiceToken(true);
-vino.olv_isEnabled(true);
-vino.olv_getPostingResult(true);
+vino.olv_getServiceToken();
+vino.olv_isEnabled();
+vino.olv_getPostingResult();
+vino.lyt_startTouchNodeEffect(true);

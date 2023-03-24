@@ -54,7 +54,7 @@ html, body {
     border-radius: 10px;
     background-color: rgba(50,50,50,0.9);
     border: 2px solid rgba(50,50,50,0.8);
-    height: 60px;
+    height: 64px;
 }
 
 #mii-info #mii-image {
@@ -63,13 +63,4 @@ html, body {
     background-color: aliceblue;
     border-radius: 8px;
     display: block;
-}
-
-
-#mii-info #mii-name {
-    font-size: 18px;
-    display: block;
-    color: white;
-    margin-top: -46px;
-    margin-left: 72px;
 }

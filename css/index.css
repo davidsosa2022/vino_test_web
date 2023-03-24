@@ -54,7 +54,7 @@ html, body {
     border-radius: 10px;
     background-color: rgba(50,50,50,0.9);
     border: 2px solid rgba(50,50,50,0.8);
-    height: 32px;
+    height: 64px;
 }
 
 #mii-info #mii-image {

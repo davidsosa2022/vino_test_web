@@ -52,9 +52,9 @@ html, body {
     left: 8px;
     padding: 8px;
     border-radius: 10px;
-    background-color: rgba(50,50,50,0.15);
+    background-color: rgba(50,50,50,0.9);
     border: 2px solid rgba(50,50,50,0.8);
-    height: 64px;
+    height: 32px;
 }
 
 #mii-info #mii-image {

@@ -8,7 +8,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 100vh;
   background: #4A98F7;
 }
 .container{
@@ -24,7 +24,7 @@ section{
   border-radius: 7px;
 }
 .tools-board{
-  width: 110px;
+  width: 210px;
   padding: 15px 22px 0;
 }
 .tools-board .row{

@@ -28,6 +28,12 @@ html, body {
 	left: 0;
 }
 
+#doodle {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 #back {
 	position: absolute;
 	bottom: 0%;

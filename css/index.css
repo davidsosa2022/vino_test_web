@@ -58,8 +58,8 @@ html, body {
 }
 
 #mii-info #mii-image {
-    width: 72px;
-    height: 72px;
+    width: 64px;
+    height: 64px;
     background-color: aliceblue;
     border-radius: 8px;
     display: block;

@@ -50,7 +50,7 @@ html, body {
     position: fixed;
     top: 8px;
     left: 8px;
-    padding: 8px;
+    padding: 4px;
     border-radius: 10px;
     background-color: rgba(50,50,50,0.9);
     border: 2px solid rgba(50,50,50,0.8);

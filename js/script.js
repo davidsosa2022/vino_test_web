@@ -57,5 +57,5 @@ function muteSound() {
 //Custom functions by davidjoaq, start here:
 
 function sound1() {
-    vino.soundPlayEx("SE_COMMON_SELECT", true);
+    vino.soundPlayEx("SE_COMMON_SELECT", 1);
 }

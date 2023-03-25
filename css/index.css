@@ -6,12 +6,12 @@ font-style: normal;
      
 }
 	#Favorites { padding-left: 30px }
-	#Favorites { padding-right: 15px }
+	#Favorites { padding-right: 18px }
         #Favorites { padding-top: 170px }
-        #TV { padding-right: 18px }
+        #TV { padding-right: 20px }
         #Movies { padding-right: 15px }
         #Sports { padding-right: 25px }
-        #TV Tag { padding-right: 20px }
+        #TV Tag { padding-right: 25px }
 
 html, body {
     margin: 0;

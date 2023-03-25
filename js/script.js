@@ -1,8 +1,6 @@
 const activeUserSlot = vino.act_getCurrentSlotNo();
 img = document.getElementById("mii-image");
 img.src=vino.act_getMiiImage(activeUserSlot);
-span = document.getElementById("mii-name");
-span.innerText=vino.act_getName(activeUserSlot);
 
 
 // Abstracted IR codes

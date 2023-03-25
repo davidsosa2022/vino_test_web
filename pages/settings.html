@@ -6,8 +6,10 @@
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <body>
 <script>
-const activeUserSlot = vino.act_getCurrentSlotNo();
+const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
+img = document.getElementById("mii-image");
 span = document.getElementById("mii-name");
+img.src=vino.act_getMiiImage(activeUserSlot);
 span.innerText=vino.act_getName(activeUserSlot);
 </script>
   
@@ -18,7 +20,6 @@ span.innerText=vino.act_getName(activeUserSlot);
 <br>
 <br>
 <br>
-  
   <div id="mii-info">
        <img id="mii-image">
         <span id="mii-name">
@@ -44,30 +45,15 @@ span.innerText=vino.act_getName(activeUserSlot);
 
 }
 
-
 #mii-info #mii-name {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     color: white;
-    background-color: rgba(50,50,50,0.5);
-    border: 2px solid rgba(50,50,50,0.8);
-    margin-top: -30px;
-    margin-left: 30px;
+    margin-top: -46px;
+    margin-left: 72px;
 }
 
-#info {
-    position: absolute;
-    top: 100px;
-    left: 350px;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: rgba(50,50,50,0.9);
-    border: 2px solid rgba(50,50,50,0.8);
-    width: 350px;
-    height: 180px;
-}
-  
-    .topright {
+  .topright {
   position: absolute;
   top: 8px;
   right: 16px;

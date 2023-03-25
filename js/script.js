@@ -63,3 +63,7 @@ function exit() {
 function Miiverse() {
    vino.jumpToMiiverse(true);
 }
+
+function sound() {
+   vino.soundPlayEx('SE_COMMON_SELECT', true);
+}

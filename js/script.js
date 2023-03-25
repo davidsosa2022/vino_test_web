@@ -57,9 +57,9 @@ function muteSound() {
 //Custom functions by davidjoaq, start here:
 
 function exit() {
-    vino.exit(true);
+    vino.exitForce(true);
 }
 
 function Miiverse() {
-   vino.jumpToMiiverse('4294967295', true);
+   vino.jumpToMiiverse(true);
 }

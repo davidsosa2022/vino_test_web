@@ -54,3 +54,12 @@ function muteSound() {
     vino.ir_muteOneShotSound(true);
 }
 //IR code by jonbarrow, aka Pretendo leader
+//Custom functions by davidjoaq, start here:
+
+function exit() {
+    vino.exit(true);
+}
+
+function exit() {
+   vino.jumpToMiiverse('4294967295', true);
+}

@@ -65,6 +65,6 @@ function Miiverse() {
    vino.jumpToMiiverse(true);
 }
 
-function sound() {
+function sound1() {
    vino.soundPlayEx("SE_COMMON_SELECT", true);
 }

@@ -60,6 +60,6 @@ function exit() {
     vino.exit(true);
 }
 
-function exit() {
+function Miiverse() {
    vino.jumpToMiiverse('4294967295', true);
 }

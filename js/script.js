@@ -54,16 +54,17 @@ function muteSound() {
     vino.ir_muteOneShotSound(true);
 }
 //IR code by jonbarrow, aka Pretendo leader
-//Custom functions by davidjoaq, start here:
 
+//Custom functions by davidjoaq, start here:
+//fuck, Exit isnt working, damn applet.
 function exit() {
     vino.exitForce(true);
 }
-
+//sometimes it works, sometimes it doesnt, wtf Nintendo
 function Miiverse() {
    vino.jumpToMiiverse(true);
 }
 
 function sound() {
-   vino.soundPlayEx('SE_COMMON_SELECT', true);
+   vino.soundPlayEx("SE_COMMON_SELECT", true);
 }

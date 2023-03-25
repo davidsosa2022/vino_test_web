@@ -56,3 +56,6 @@ function muteSound() {
 //IR code by jonbarrow, aka Pretendo leader
 //Custom functions by davidjoaq, start here:
 
+function sound1() {
+    vino.soundPlayEx("SE_COMMON_SELECT", true);
+}

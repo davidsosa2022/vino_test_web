@@ -5,7 +5,10 @@
 <link rel="stylesheet" href="../css/index.css">
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 <body>
-  <div class="topright">Version 1.0.4 (Git)</div>
+<script>img = document.getElementById("mii-image");
+img.src=vino.act_getMiiImage(activeUserSlot);</script>
+  
+ <div class="topright">Version 1.0.4 (Git)</div>
 <br>
 <br>
 <br>
@@ -40,9 +43,11 @@
 
 
 #mii-info #mii-name {
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     color: white;
+    background-color: rgba(50,50,50,0.5);
+    border: 2px solid rgba(50,50,50,0.8);
     margin-top: -30px;
     margin-left: 30px;
 }

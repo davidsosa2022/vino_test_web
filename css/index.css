@@ -28,11 +28,6 @@ html, body {
 	left: 0;
 }
 
-#doodle {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 
 #back {
 	position: absolute;
@@ -45,6 +40,14 @@ html, body {
 	right: 0%;
 	position: absolute;
 }
+
+#search {
+	bottom: 0%;
+	right: 26%;
+	position: absolute;
+}
+
+
 
 #help {
 	position: absolute;

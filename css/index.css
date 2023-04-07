@@ -22,6 +22,12 @@ html, body {
 				height: 30px;
 				font-size: 15px;
 			}
+#help {
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
+
 #exit {
 	position: absolute;
 	bottom: 0%;
@@ -35,24 +41,16 @@ html, body {
 	left: 0;
 }
 
-#remote {
-	bottom: 0%;
-	right: 0%;
-	position: absolute;
-}
-
 #search {
 	bottom: 0%;
 	right: 26%;
 	position: absolute;
 }
 
-
-
-#help {
-	position: absolute;
-	top: 0;
+#remote {
+	bottom: 0%;
 	right: 0%;
+	position: absolute;
 }
 
 #mii-info {

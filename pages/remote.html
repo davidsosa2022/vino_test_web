@@ -1,92 +1,188 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Nintendo TVii</title>
-<link rel="stylesheet" href="../css/index.css">
-<link rel="icon" type="image/x-icon" href="../img/favicon.ico">
-<body>
-  <div id="mii-info">
-    <a navi_target href="./settings.html">
-      <img id="mii-image"></a>
-        <span id="mii-name">
-    </span></div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <table id="remoteIR">
-        <tr>
-            <td>
-                <button class="remotebtnPower" id="power"</button>
-            </td>
-            <td>
-                <button class="remotebtn0" id="input"</button>
-            </td>
-            <td>
-                <button class="remotebtnInput" id="input"</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="remotebtn1" id="1"</button>
-            </td>
-            <td>
-                <button class="remotebtn2" id="2"</button>
-            </td>
-            <td>
-                <button class="remotebtn3" id="3"</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="remotebtn4" id="4"</button>
-            </td>
-            <td>
-                <button class="remotebtn5" id="5"</button>
-            </td>
-            <td>
-                <button class="remotebtn6" id="6"</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="remotebtn7" id="7"</button>
-            </td>
-            <td>
-                <button class="remotebtn8" id="8"</button>
-            </td>
-            <td>
-                <button class="remotebtn9" id="9"</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="remotebtnVolU" id="volup">vol up</button>
-            </td>
-            <td>
-                <button class="remotebtn0" id="0">0</button>
-            </td>
-            <td>
-                <button class="remotebtnChU" id="chanup">chan up</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="remotebtnVolD" id="voldown">vol down</button>
-            </td>
-            <td/>
-            <td>
-                <button class="remotebtnChD" id="chandown">chan down</button>
-            </td>
-        </tr>
-    </table>
-  
-<a navi_target href="../index.html">
-  
-<img id="back"
-src="data:image/png;base64,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"/>
 
-<script src="../js/script.js"></script>
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nintendo TVii- TV Remote</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #455a64;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+button {
+  display: block;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  margin: 32px;
+  padding: 32px;
+  background-color: #03a9f4;
+  box-shadow: 3px 3px 7px #333;
+}
+button:active {
+  box-shadow: none;
+}
+
+svg {
+  fill: white;
+  width: 64px;
+  height: 64px;
+}
+
+section {
+  display: inline-block;
+}
+
+.remote-buttons {
+  position: relative;
+}
+
+.vol-section:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #517e8b;
+  width: 4px;
+  height: 65%;
+  box-shadow: 2px 2px 7px #333;
+}
+
+.remote {
+  display: inline-block;
+  padding: 32px 0;
+}
+
+.power {
+  background-color: #ff1538;
+}
+
+.source {
+  background-color: #ff8f01;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <div class="remote">
+ <h1>TV Remote</h1>
+ <div class="remote-buttons">
+  <section>
+   <button id="power" class="power">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 22.1 22.1" style="enable-background:new 0 0 22.1 22.1;" xml:space="preserve">
+<path d="M11.1,22.1C11.1,22.1,11.1,22.1,11.1,22.1c-2.7,0-5.2-1-7.1-2.9C0.1,15.2,0.1,8.9,4,5c0.4-0.4,1-0.4,1.4,0
+	c0.4,0.4,0.4,1,0,1.4c-3.1,3.1-3.1,8.2,0,11.3c1.5,1.5,3.5,2.3,5.7,2.3c0,0,0,0,0,0c2.1,0,4.1-0.8,5.7-2.3c3.1-3.1,3.1-8.2,0-11.3
+	c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0c3.9,3.9,3.9,10.2,0,14.1C16.2,21,13.7,22.1,11.1,22.1z"/>
+<path d="M11.1,12.1c-0.6,0-1-0.4-1-1v-10c0-0.6,0.4-1,1-1s1,0.4,1,1v10C12.1,11.6,11.6,12.1,11.1,12.1z"/>
+</svg>
+
+</button>
+   <button id="source" class="source">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="55.9" height =55.9
+	 viewBox="0 0 55.9 55.9" style="enable-background:new 0 0 55.9 55.9;" xml:space="preserve">
+<g id="XMLID_5_">
+	<path class="st0" d="M50.5,5.4h-45c-2.8,0-5,2.3-5,5v10h5v-10h45v35.1h-45V35.4h-5v10c0,2.8,2.3,5,5,5h45
+		c2.8,0,5-2.2,5-5v-35C55.5,7.7,53.2,5.4,50.5,5.4z M25.4,37.9l10-10l-10-10v7.5h-25v5h25V37.9z"/>
+</g>
+</svg>
+		</button>
+  </section>
+  <section class="vol-section">
+   <button id="vol-up">
+  	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+<g class="st0">
+	<polygon class="st1" points="0,24.4 0,57.5 17.1,57.5 49.4,75.1 49.4,6.8 17.1,24.4 	"/>
+	<rect x="56.3" y="37.4" class="st1" width="23.7" height="7"/>
+</g>
+<g>
+	<polygon points="0,25.3 0,56.7 16.3,56.7 46.9,73.5 46.9,8.5 16.3,25.3 	"/>
+	<polygon points="69.8,37.2 69.8,26.5 62.1,26.5 62.1,37.2 51.8,37.2 51.8,44.7 62.1,44.7 62.1,55.5 69.8,55.5 69.8,44.7 80,44.7 
+		80,37.2 	"/>
+</g>
+</svg>
+  </button>
+   <button id="vol-down">
+  	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+<g>
+	<polygon points="0,24.4 0,57.5 17.1,57.5 49.4,75.1 49.4,6.8 17.1,24.4 	"/>
+	<rect x="56.3" y="37.4" width="23.7" height="7"/>
+</g>
+  </button>
+   <!--Vol Slider?-->
+  </section>
+ </div>
+</div>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+  
+      <script id="rendered-js" >
+const powerButton = document.getElementById('power');
+const sourceButton = document.getElementById('source');
+const volUpButton = document.getElementById('vol-up');
+const volDownButton = document.getElementById('vol-down');
+
+const sendCommand = command => {
+  fetch('endpoint', { method: 'post', body: command });
+};
+
+const power = () => {
+  console.log('power');
+  sendCommand('vino.ir_send(0, 0);');
+};
+
+const source = () => {
+  console.log('source');
+  sendCommand('vino.ir_send(52, 0);');
+};
+
+const volUp = () => {
+  console.log('volUp');
+  sendCommand('vino.ir_send(3, 0);');
+};
+
+const volDown = () => {
+  console.log('volDown');
+  sendCommand('vino.ir_send(4, 0);');
+};
+
+powerButton.addEventListener('click', power);
+sourceButton.addEventListener('click', source);
+volUpButton.addEventListener('click', volUp);
+volDownButton.addEventListener('click', volDown);
+//# sourceURL=pen.js
+    </script>
+
+  
 </body>
+
+</html>
